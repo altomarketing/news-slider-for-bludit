@@ -87,7 +87,7 @@ $newDescription = implode(' ',$smallDescription);
                     <div>
                         <h2><?php echo $page['title'];?></h2>
                         <p><?php echo  $newDescription;?> [...]</p>
-                        <a href="<?php echo DOMAIN.DS.$key;?>" class="swipe-btn"><?php echo $this->getValue('btntext');?></a>
+                        <a href="<?php echo $key;?>" class="swipe-btn"><?php echo $this->getValue('btntext');?></a>
                     </div>
 
                 </div>
